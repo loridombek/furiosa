@@ -1,0 +1,48 @@
+/* The Modal (background) */
+.lpd-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,1); 
+}
+
+/* Modal Content/Box */
+.lpd-modal-content {
+    background-color: #eee;
+    margin: 1% auto;
+    padding: 10px 30px 30px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border: 1px solid #888;
+    width: 90%; 
+    max-width: 600px;
+}
+.lpd-modal-image {
+    text-align:center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+    color: #414141;
+}
+
+/* The Close Button */
+.lpd-modal-close { /* used in javascript */
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lpd-modal-close:hover,
+.lpd-modal-close:focus { /* used in javascript */
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
